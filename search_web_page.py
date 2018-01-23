@@ -1,3 +1,5 @@
+# this python script creates a function run that iterates through the list of service urls and identifies if they are healthy
+
 import urllib2
 import re
 services = ['http://yahoo.com/','http://bing.mdsol.com']
