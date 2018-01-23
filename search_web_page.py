@@ -1,4 +1,4 @@
-# this python script creates a function run that iterates through the list of service urls and identifies if they are healthy
+# this python script creates a function 'url_health_check' that iterates through the list of service urls and identifies if they are healthy
 
 import urllib2
 import re
