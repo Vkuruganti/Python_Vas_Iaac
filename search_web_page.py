@@ -5,7 +5,7 @@ import re
 services = ['http://yahoo.com/','http://bing.mdsol.com']
 
 
-def run(services):
+def url_health_check(services):
     for s in services:
        # print s
         html_content = urllib2.urlopen(str(s)).read()
@@ -19,4 +19,4 @@ def run(services):
         else:
            print s, ':the site is in maintenance'
 
-run(services)
+url_health_check(services)
